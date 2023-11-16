@@ -1,12 +1,16 @@
 # deep-learning-challenge
 
 Overview:
+
+
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not
 applicants for funding will be successful. With knowledge of machine learning and neural
 networks, we must use the features in the provided dataset to create a binary classifier that is
 capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 Results:
+
+
 To begin the data processing excessive information should be deleted. After dropping EIN and
 NAME the remaining columns were to be considered features for the model. NAME was added
 back into the second test just because it is benificial for binning purposes. The data was then split for training and testing
@@ -17,12 +21,16 @@ value of “Other” for each unique value. Categorical variables were encoded i
 
 
 Compiling, Training, and Evaluating the Model:
+
+
 There were three layers total for each model after applying Neural Networks. The number of
 hidden nodes were dictated by the number of features.
 3298 parameters were created by a three-layer training model. The first attempt was just over
 71% accuracy which was under a desired 75% but the difference is not too high.
 
 Optimization:
+
+
 The second attempt with the “NAME” column in the dataset, achieved an accuracy of almost
 78%. This is 4% over the target 75% with 3,298 parameters.
 Multiple layers should be used for deep learning models since it learns how to predict and
