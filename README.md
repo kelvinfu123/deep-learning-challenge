@@ -1,6 +1,6 @@
 # deep-learning-challenge
 
-Overview:
+# Overview:
 
 
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not
@@ -11,7 +11,7 @@ capable of predicting whether applicants will be successful if funded by Alphabe
 
 
 
-Results:
+# Results:
 
 
 To begin the data processing excessive information should be deleted. After dropping EIN and
@@ -26,7 +26,7 @@ value of “Other” for each unique value. Categorical variables were encoded i
 
 
 
-Compiling, Training, and Evaluating the Model:
+# Compiling, Training, and Evaluating the Model:
 
 
 There were three layers total for each model after applying Neural Networks. The number of
@@ -37,7 +37,7 @@ hidden nodes were dictated by the number of features.
 
 
 
-Optimization:
+# Optimization:
 
 
 The second attempt with the “NAME” column in the dataset, achieved an accuracy of almost
