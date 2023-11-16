@@ -8,6 +8,9 @@ applicants for funding will be successful. With knowledge of machine learning an
 networks, we must use the features in the provided dataset to create a binary classifier that is
 capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
+
+
+
 Results:
 
 
@@ -20,6 +23,9 @@ for binning. We used several data points as a cutoff to bin “rare” variables
 value of “Other” for each unique value. Categorical variables were encoded in order to check if the binning was successful.
 
 
+
+
+
 Compiling, Training, and Evaluating the Model:
 
 
@@ -27,6 +33,9 @@ There were three layers total for each model after applying Neural Networks. The
 hidden nodes were dictated by the number of features.
 3298 parameters were created by a three-layer training model. The first attempt was just over
 71% accuracy which was under a desired 75% but the difference is not too high.
+
+
+
 
 Optimization:
 
